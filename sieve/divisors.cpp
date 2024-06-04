@@ -23,7 +23,7 @@ int main()
             divisors[j].push_back(i);
         }
     }
-    for (int i = 1; i < 100; i++)
+    for (int i = 1; i < 21; i++)
     {
         for (int x : divisors[i])
             cout << x << " ";
