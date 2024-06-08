@@ -12,6 +12,6 @@ int form1(vector<int> &v){
 
 }
 int main(){
-    vector<int> from1 = {0, 0, 0, 0, 1 , 1}
-    vector<int> from2 = {1, 1, 1, 1, 0, 0, 0, 0}
+    vector<int> from1 = {0, 0, 0, 0, 1 , 1};
+    vector<int> from2 = {1, 1, 1, 1, 0, 0, 0, 0};
 }

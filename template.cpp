@@ -1,5 +1,6 @@
 /*
-    Basic template for solving cp problems.
+    Rating : 1100
+    
 */
 #include <bits/stdc++.h>
 using namespace std;
