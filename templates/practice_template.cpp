@@ -1,6 +1,6 @@
 /*
-    Rating : 1100
-    
+    Rating : 
+    Link : 
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -17,10 +17,15 @@ using namespace std;
 #define no cout << "NO" << '\n'
 #define mod 1000000007;
 
+void solve(){
+    
+}
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
+    int t;
+    cin>>t;
+    while(t--) solve();
     return 0;
 }

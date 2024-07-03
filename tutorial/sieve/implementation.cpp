@@ -1,4 +1,7 @@
 /*
+    Sieve
+    =====
+
     We need to compute all the prime numbers till the range 10^7
     The time complexity of the given algorithm will be N * log(log(N))
 */

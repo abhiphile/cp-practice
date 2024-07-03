@@ -1,4 +1,16 @@
-// Collatz Conjecture
+/*
+    Rating : 1200
+    Link : https://codeforces.com/contest/1982/problem/B
+
+    Collatz Conjecture
+    ==================
+    It is a very classical problem in which the loop created and it rotates in this loop from
+    [1, y-1] ===> Loop is created
+    1 -> 2 -> 3 -> 4 -> ........ -> y-1 -> 1 -> 2 -> 3 -> 4 -> ........ ->y-1 ->
+    From any x after k operations it will reach to ?
+    x will be (x + k)%(y - 1) if it is 0 then output will be x
+        else the result will be (x + k)%(y - 1)
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -17,6 +29,7 @@ using namespace std;
 
 ll rep(ll x, ll y)
 {
+    /* Does repetitive division.*/
     while (x % y == 0)
         x /= y;
     return x;

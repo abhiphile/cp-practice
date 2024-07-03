@@ -1,4 +1,7 @@
 /*
+    Sieve
+    =====
+
     To find out the highest and lowest prime factor of a number.
 */
 #include <bits/stdc++.h>

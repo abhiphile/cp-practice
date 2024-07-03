@@ -1,4 +1,7 @@
 /*
+    Sieve
+    =====
+
     To find all the divisors of a given number.
     T.C = N * log(N)
 */
