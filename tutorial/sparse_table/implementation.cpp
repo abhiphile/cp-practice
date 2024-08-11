@@ -1,6 +1,6 @@
 /*
     Implementation of sparse tables to find the min in a range [l, r]
-    -------------------------------
+    -----------------------------------------------------------------
 */
 #include <bits/stdc++.h>
 using namespace std;

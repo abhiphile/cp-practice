@@ -1,0 +1,1 @@
+{"name":"Local: graph_revision","url":"/home/abhishek/Desktop/cp-practice/tutorial/graphs/graph_revision.cpp","tests":[{"id":1723187769663,"input":"7\n6\n0 1\n1 2\n1 6\n2 3\n3 4\n4 5","output":"\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/abhishek/Desktop/cp-practice/tutorial/graphs/graph_revision.cpp","group":"local","local":true}

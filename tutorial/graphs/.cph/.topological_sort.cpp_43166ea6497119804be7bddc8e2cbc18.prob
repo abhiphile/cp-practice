@@ -1,0 +1,1 @@
+{"name":"Local: topological_sort","url":"/home/abhishek/Desktop/cp-practice/tutorial/graphs/topological_sort.cpp","tests":[{"id":1723396885407,"input":"6\n8\n0 3\n0 2\n1 4\n2 1\n3 1\n3 2\n1 4\n5 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/abhishek/Desktop/cp-practice/tutorial/graphs/topological_sort.cpp","group":"local","local":true}
