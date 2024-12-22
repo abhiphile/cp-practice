@@ -14,7 +14,22 @@ using namespace std;
 #define mod 1000000007;
 
 void solve(){
-    
+    int n, m;
+    cin>>n>>m;
+    vector<int> s;
+    for(int i=0;i<n;i++){
+        string str;
+        cin>>str;
+        s.push_back(str.length());
+    }
+    int wrds = 0;
+    int curr = 0;
+    for(int i=0;i<n;i++){
+        curr += s[i];
+        if(curr <= m) wrds = i + 1;
+        else break;
+    }
+    cout<<wrds<<endl;
 }
 int main()
 {

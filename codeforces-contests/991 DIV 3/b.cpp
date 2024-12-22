@@ -14,7 +14,25 @@ using namespace std;
 #define mod 1000000007;
 
 void solve(){
-    
+    int n;
+    cin>>n;
+    vector<int> arr(n);
+    for(int i=0;i<n;i++) cin>>arr[i];
+    // calculating sums
+    ll sum1=0,sum2=0,sum=0;
+    for(int i=0;i<n;i++){
+        if((i & 1)) sum1 += arr[i];
+        else sum2 += arr[i];
+        sum += arr[i];
+    }
+    int nee = n/2;
+    int noo = n - nee;
+
+    if(sum % n == 0){
+        if(((sum1 * noo == sum2 * nee) and (sum1*n == sum * nee))) yes;
+        else no;
+    }
+    else no;
 }
 int main()
 {
